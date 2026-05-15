@@ -45,6 +45,10 @@ After adding a GitHub `origin` remote, preview the expected GitHub Pages URL wit
 npm run deploy:github:url
 ```
 
+## One-file offline preview
+
+If you only need to view the prototype without deployment, open `preview.html` directly in a browser by double-clicking the file. This file is self-contained and does not require GitHub, Node.js, Python, Docker, or any terminal command.
+
 ## Web-only guide for non-technical users
 
 Use this path if you only want to use a browser and do not want to install Git, GitHub Desktop, Node.js, or Docker.
