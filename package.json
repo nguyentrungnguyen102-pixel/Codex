@@ -1,0 +1,14 @@
+{
+  "name": "vnpayagent-os-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "build": "node scripts/validate-build.mjs",
+    "deploy:local": "npm run build && python3 -m http.server 4173 --directory dist",
+    "deploy:github:url": "node scripts/print-github-pages-url.mjs",
+    "test": "node --test src/prototypeFlow.test.js",
+    "test:flow": "node --test src/prototypeFlow.test.js"
+  }
+}
